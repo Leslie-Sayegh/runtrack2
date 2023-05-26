@@ -1,6 +1,6 @@
 <?php
 $str = "Les choses que l'on possède finissent par nous posséder.";
-echo $str;
+echo $str . "<br />";
 
 $reversedStr = '';
 $length = strlen($str); // Utilisation de mb_strlen pour prendre en compte les caractères spéciaux

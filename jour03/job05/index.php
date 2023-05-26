@@ -1,6 +1,6 @@
 <?php
 $str = "On n'est pas le meilleur quand on le croit mais quand on le sait";
-echo $str;
+echo $str . "<br />";
 
 $dic = array(
     "consonnes" => 0,
