@@ -1,5 +1,6 @@
 <?php
 $str = "On n'est pas le meilleur quand on le croit mais quand on le sait";
+echo $str;
 
 $dic = array(
     "consonnes" => 0,
@@ -19,7 +20,7 @@ for ($i = 0; $i < strlen($str); $i++) {
             $dic["consonnes"]++;
         }
     }
-    var_dump($str);
+    var_dump($dic);
 }
 
 ?>
