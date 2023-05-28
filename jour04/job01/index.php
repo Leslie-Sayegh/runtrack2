@@ -1,28 +1,11 @@
-
 <?php
-// compter afficher le nombre d'argument en appuyant sur 'ENTRER' 
+$argumentsCount = 0;
 
-// Vérifie si un formulaire a été soumis via la méthode GET
-if (isset($_GET['submit'])) {
-    // Compte le nombre d'arguments dans $_GET
-    $count = 0;
-    foreach ($_GET as $key => $value) {
-        // Ignore le champ submit
-        if ($key !== 'submit') {
-            $count++;
-        }
+foreach ($_GET as $key => $value) {
+    if (isset($_GET[$key])) {
+        $argumentsCount++;
     }
+}
 
-    // Affiche le nombre d'arguments
-    echo "Le nombre d'arguments GET envoyé est : " . $count;
-
-}// mise en forme tableau et entrer pour calculer 
+echo "Le nombre d’arguments GET envoyé est : " . $argumentsCount;
 ?>
-
-<form method="GET">
-    <input type="text" name="arg1" placeholder="Argument 1"><br>
-    <input type="text" name="arg2" placeholder="Argument 2"><br>
-    <input type="text" name="arg3" placeholder="Argument 3"><br>
-	<input type="submit" name="submit" value="Envoyer">
-</form>
-
