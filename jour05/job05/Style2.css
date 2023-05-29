@@ -1,0 +1,22 @@
+body {
+    background-color: #e6f9ff;
+    font-family: Verdana, sans-serif;
+}
+
+h1 {
+    color: #008ae6;
+}
+
+form {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 20px;
+}
+
+input[type="submit"] {
+    background-color: #008ae6;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}

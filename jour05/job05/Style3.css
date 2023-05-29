@@ -1,0 +1,22 @@
+body {
+    background-color: #d63395;
+    font-family: "Times New Roman", serif;
+}
+
+h1 {
+    color: #210fe7;
+}
+
+form {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 20px;
+}
+
+input[type="submit"] {
+    background-color: #ebb3d7;
+    color: #540ce2;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
